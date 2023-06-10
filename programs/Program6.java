@@ -4,7 +4,7 @@ public class Program6{
 		int rem=0;
 		int temp = a;
 		while(a>0){
-		rem = rem + a%10 ;
+		rem = rem*10 + a%10 ;
 		a = a/10 ;
 		}
 		
