@@ -14,7 +14,6 @@
 		 System.out.println(s);
 	 }
 	 public static void main(String args[]){
-		System.out.println("Enter the name of the student");
 		Student s = new Student();
 		Student s1 = new Student("Prerna");
 	 }
