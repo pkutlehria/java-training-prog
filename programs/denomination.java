@@ -29,14 +29,15 @@ public class denomination{
 				}
 				}
 			}
-	while(amt>0){
+	
 	for(int i =0 ; i< size ; i++){
 		
 		int n = amt/arr[i];
 		amt = amt - (n*arr[i]);
 		System.out.println(arr[i]+":"+n);
 		}
-	}
+	
+	System.out.println(amt);
 	}
 	
 }
